@@ -2,7 +2,27 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden; /* Hide overflowing content */
+            }
+    
+            #bouncing-image {
+                position: absolute; /* Position the image absolutely */
+                top: 0; /* Initial top position */
+                left: 0; /* Initial left position */
+            }
+        </style>
+    </head>
+    <body>
+        <img id="bouncing-image" src="uwakk.png" alt="Bouncing Image">
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
+   <style>
         body {
             background: linear-gradient(135deg, #ff0, #0f0, #00f, #f00);
             background-size: 400% 400%;
